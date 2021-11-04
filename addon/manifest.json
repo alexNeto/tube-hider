@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Tube-hider",
+  "version": "0.1",
+
+  "description": "TODO - add a description",
+
+  "icons": {
+    "16": "./src/icons/lurker-16.png",
+    "24": "./src/icons/lurker-24.png",
+    "32": "./src/icons/lurker-32.png",
+    "64": "./src/icons/lurker-64.png",
+    "128": "./src/icons/lurker-128.png",
+    "256": "./src/icons/lurker-256.png",
+    "512": "./src/icons/lurker-512.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["./src/js/tube-hider.js"]
+    }
+  ]
+}
