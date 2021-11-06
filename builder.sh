@@ -1,6 +1,6 @@
 _file_name="tube-hider-"
 _file_extenssion=".zip"
-_file_version=$(cat addon/manifest.json | grep version | tail -n 1 | tr -d ' a-z:,\"')
+_file_version=$(grep \"version\" addon/manifest.json | tr -d ' a-z:,\"')
 
 _build_directory=""
 
