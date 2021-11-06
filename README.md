@@ -10,8 +10,9 @@ A simple addon that removes the youtube's frontpage content
 
 ### Proposed release
 
-- 0.1.1
+- 0.1.2
   - Fix channel page videos 
+  - Fix category header width
 
 ### Released
 

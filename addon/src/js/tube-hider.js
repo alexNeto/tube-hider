@@ -9,6 +9,8 @@ const state = {
   header: {},
   secondary: {},
   sections: {},
+  pageManeger: {},
+  chipsWrapper: {},
 };
 
 const queryId = (id) => {
