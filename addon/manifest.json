@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Tube-hider",
-  "version": "0.1.0",
+  "version": "0.1.1",
 
-  "description": "TODO - add a description",
+  "description": "For now just removes sugestions from the youtube homepage",
 
   "icons": {
     "16": "./src/icons/lurker-16.png",
@@ -19,6 +19,10 @@
     {
       "matches": ["*://*.youtube.com/*"],
       "js": ["./src/js/tube-hider.js"]
+    },
+    {
+      "matches": ["*://*.youtube.com/"],
+      "js": ["./src/js/tube-hider-home.js"]
     }
   ]
 }
